@@ -1,0 +1,22 @@
+{
+  "name": "xrp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "export DEBUG=* && node start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@compound-finance/compound-js": "^0.6.2",
+    "@meterio/compound-js": "^0.2.33",
+    "@polkadot/api": "^10.11.2",
+    "@polkadot/util-crypto": "^12.6.2",
+    "@substrate/txwrapper-polkadot": "^7.2.0",
+    "axios": "^1.6.5",
+    "ether": "^0.0.9",
+    "hardhat": "^2.19.4"
+  }
+}
